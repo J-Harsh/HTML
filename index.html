@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer On/Off</title>
+</head>
+<body>
+    <br>
+    <br>
+    <br>
+    
+    <br>
+    <br>
+    <br>
+    <center>
+        <h2>Click on the button below to check if your computer is on or off</h2>
+        <button>Ok</button>
+        <center id="hidden"></center>
+    </center>
+</body>
+<script>
+    document.querySelector("button").addEventListener("click",()=>
+    {
+        document.getElementById("hidden").innerHTML="<h1>YES it is on</h1><h5>And you should probably go to sleep</h5>";
+    });
+</script>
+</html>
